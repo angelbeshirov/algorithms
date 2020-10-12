@@ -53,7 +53,6 @@ vector<long> riddle(vector<long> arr) {
     int n = arr.size();
     vector<long> res;
     stack<long>* mins = new stack<long>();
-    stack<long>* new_mins;
     long mx = LONG_MIN;
 
     for(int i = 0; i < n; i++) {
